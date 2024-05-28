@@ -1259,7 +1259,7 @@ body.offcanvas {
  #vission{
   
   display: flex;
-  gap: 20px;
+  gap: 2em;
   align-items: center;
   justify-content: center;
  }
@@ -1274,7 +1274,7 @@ body.offcanvas {
  .js #ani-vision .desc{
   padding: 10px;
  }
- @media (max-width:992px) {
+ @media (max-width:1200px) {
   #vission{
     display: flex;
     flex-direction: column;
