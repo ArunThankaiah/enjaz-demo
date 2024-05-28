@@ -88,7 +88,7 @@ figure {
   left: 0;
   overflow-y: scroll;
   z-index: 1001;
-  background: #FFF;
+  background: #FAFAFA;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -288,10 +288,10 @@ figure {
         position: relative; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
           position: absolute;
-          bottom: 0;
-          right: -15px;
+          left: -80%;
+          bottom: 35%;
           padding: 30px;
-          background: #0F798e; }
+           }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
               right: 0;
@@ -302,13 +302,14 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
-          font-family: "Quicksand", Arial, sans-serif; }
+          font-family: "Poppins", sans-serif;
+          font-weight: 800;
+          font-style: normal; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 44px;
-          line-height: 1.3;
-          font-weight: 300; 
+         
+          font-weight: 500; 
           color: #FFF;
           }
           
@@ -317,9 +318,10 @@ figure {
               font-size: 28px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
-          line-height: 1.5;
+          
           margin-bottom: 30px;
           font-weight: 300;
+          color: rgba(255, 255, 255, 0.5);
           font-family: "Quicksand", Arial, sans-serif; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: rgba(0, 0, 0, 0.8); }
@@ -343,12 +345,12 @@ figure {
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
+            color: #FFF;
             border: 1px solid #fff;
-            background: #fff !important; }
+            background: #0F798e !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
-              color: #fff;
+              color: #000;
               border: 1px solid #514741 !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
@@ -514,7 +516,7 @@ body.offcanvas {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background-color: #000;
+  background-color: #0F798e;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -567,7 +569,8 @@ body.offcanvas {
     width: 90%;
     z-index: 1;
     margin-top: -20px;
-    background: #fafafa;
+    background: #0F798e;
+    
     padding: .8em .5em; }
     .services-wrap .desc h3 {
       font-weight: 500;
@@ -577,6 +580,7 @@ body.offcanvas {
       letter-spacing: 3px;
       line-height: 1.5;
       margin-bottom: 0;
+      color: #FAFAFA;
       text-transform: uppercase; }
 
 .move-bottom {
@@ -1268,12 +1272,21 @@ body.offcanvas {
   background: #fff;
   border: 1px solid #0F798e;
   padding: 10px ;
-  min-height: 300px;
+  min-height: 350px;
   box-shadow: 10px 10px #0F798e;
  }
  .js #ani-vision .desc{
   padding: 10px;
  }
+ .icon_v{
+  font-size: 4rem;
+  padding-left: 5%;
+  color: #0F798e;
+ }
+ .icon_v:hover{
+  color: #514741;
+ }
+
  @media (max-width:1200px) {
   #vission{
     display: flex;
